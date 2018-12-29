@@ -9,15 +9,17 @@ public class Post {
     public String userName;
     public String password;
     public String postID;
+    public String uID;
     public Post(){
 
     }
 
-    public Post(String mail, String un, String pass, String postID) {
+    public Post(String mail, String un, String pass, String postID, String uID) {
         this.mailId = mail;
         this.userName = un;
         this.password = pass;
         this.postID = postID;
+        this.uID = uID;
     }
 
     public String getMailId() {
@@ -50,5 +52,13 @@ public class Post {
 
     public void setPostID(String postID) {
         this.postID = postID;
+    }
+
+    public String getuID() {
+        return uID;
+    }
+
+    public void setuID(String uID) {
+        this.uID = uID;
     }
 }

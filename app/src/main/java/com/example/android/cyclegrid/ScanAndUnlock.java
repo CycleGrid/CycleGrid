@@ -74,18 +74,18 @@ public class ScanAndUnlock extends AppCompatActivity implements View.OnClickList
 
 
 
-                    Query query = d1.orderByChild("cycleID").equalTo(qrid);
+                    Query query = d1.orderByChild("QRCode").equalTo(qrid);
 
                     query.addValueEventListener(new ValueEventListener() {
 
                         @Override
                         public void onDataChange(DataSnapshot dataSnapshot) {
-                            String cycleid = null;
+                            String qrcode = null;
                             String gps = null;
                             Boolean lock = false;
 
                             for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
-                                cycleid = snapshot.child("cycleID").getValue().toString();
+                                qrcode = snapshot.child("QRCode").getValue().toString();
                                 gps = snapshot.child("gps").getValue().toString();
                                 lock = ((Boolean)snapshot.child("lock").getValue()).booleanValue();
                             }
@@ -98,7 +98,7 @@ public class ScanAndUnlock extends AppCompatActivity implements View.OnClickList
 
                             //Post p1 = dataSnapshot.getValue(Post.class);
 
-                            if (qrid.equals(cycleid) && !lock) {
+                            if (qrid.equals(qrcode) && !lock) {
                                 Toast.makeText(getApplicationContext(), "AVAILABLE", Toast.LENGTH_SHORT).show();
                                 Intent obj = new Intent(getApplicationContext(), CycleMaps.class);
                                 startActivity(obj);
