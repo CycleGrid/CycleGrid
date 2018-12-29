@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "162187742996",
+    "firebase_url": "https://cyclegrid-faee0.firebaseio.com",
+    "project_id": "cyclegrid-faee0",
+    "storage_bucket": "cyclegrid-faee0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162187742996:android:08e45954ea646aea",
+        "android_client_info": {
+          "package_name": "com.example.android.cyclegrid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162187742996-n3trr29v2q52j4kseu9n9ovn3dg09to1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.cyclegrid",
+            "certificate_hash": "70ffc9ea6b32baf5a6903ac36e5d2c68ee7370b7"
+          }
+        },
+        {
+          "client_id": "162187742996-7ab9a43kah2fiu4fnsck4qouqh6asggh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB27UwrwPIkb51pJ-g58yMVYMZOfDGpSmY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "162187742996-7ab9a43kah2fiu4fnsck4qouqh6asggh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
