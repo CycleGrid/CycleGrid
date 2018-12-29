@@ -17,3 +17,5 @@ https://www.youtube.com/watch?v=Xe1o5JDwp2k
 Upload Images to Firebase - https://code.tutsplus.com/tutorials/image-upload-to-firebase-in-android-application--cms-29934
 
 https://www.thecrazyprogrammer.com/2017/02/android-upload-image-firebase-storage-tutorial.html
+
+Add Android Project to Git - https://stackoverflow.com/questions/37093723/how-to-add-an-android-studio-project-to-github
